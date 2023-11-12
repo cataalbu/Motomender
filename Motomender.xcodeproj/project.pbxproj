@@ -8,17 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		D6175B922AED033F00B8E7B8 /* MotomenderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6175B912AED033F00B8E7B8 /* MotomenderApp.swift */; };
-		D6175B942AED033F00B8E7B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6175B932AED033F00B8E7B8 /* ContentView.swift */; };
 		D6175B962AED034200B8E7B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6175B952AED034200B8E7B8 /* Assets.xcassets */; };
 		D6175B992AED034200B8E7B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6175B982AED034200B8E7B8 /* Preview Assets.xcassets */; };
+		D6567C952AFF7EF100CE2789 /* MotomenderTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6567C942AFF7EF100CE2789 /* MotomenderTabView.swift */; };
+		D6567C972AFF7F5600CE2789 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6567C962AFF7F5600CE2789 /* AccountView.swift */; };
+		D6567CA52AFF814300CE2789 /* MotorcycleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6567CA42AFF814300CE2789 /* MotorcycleListView.swift */; };
+		D6567CA72AFF832100CE2789 /* ActivityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6567CA62AFF832100CE2789 /* ActivityListView.swift */; };
+		D6567CA92AFF85C900CE2789 /* ActivityListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6567CA82AFF85C900CE2789 /* ActivityListCell.swift */; };
+		D6567CAE2AFF8E6100CE2789 /* MotorcycleListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6567CAD2AFF8E6100CE2789 /* MotorcycleListCell.swift */; };
+		D6567CB22AFF91E600CE2789 /* ActivityDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6567CB12AFF91E600CE2789 /* ActivityDetailsView.swift */; };
+		D6567CB42B00065800CE2789 /* MotorcycleDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6567CB32B00065800CE2789 /* MotorcycleDetailsView.swift */; };
+		D6567CB72B00072000CE2789 /* MotorcyleCreateFormSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6567CB62B00072000CE2789 /* MotorcyleCreateFormSheet.swift */; };
+		D6567CB92B00125A00CE2789 /* ActivityCreateFormSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6567CB82B00125A00CE2789 /* ActivityCreateFormSheet.swift */; };
+		D6567CBB2B00E55E00CE2789 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6567CBA2B00E55E00CE2789 /* Activity.swift */; };
+		D6567CBD2B00E60000CE2789 /* Motorcycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6567CBC2B00E60000CE2789 /* Motorcycle.swift */; };
+		D6567CBF2B00E91D00CE2789 /* ActivityListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6567CBE2B00E91D00CE2789 /* ActivityListViewModel.swift */; };
+		D6567CC12B01570D00CE2789 /* ActivityUpdateFormSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6567CC02B01570D00CE2789 /* ActivityUpdateFormSheet.swift */; };
+		D6567CC32B015F8400CE2789 /* MotorcycleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6567CC22B015F8400CE2789 /* MotorcycleListViewModel.swift */; };
+		D6567CC52B01777900CE2789 /* MotorcycleUpdateFormSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6567CC42B01777800CE2789 /* MotorcycleUpdateFormSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D6175B8E2AED033F00B8E7B8 /* Motomender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Motomender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6175B912AED033F00B8E7B8 /* MotomenderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotomenderApp.swift; sourceTree = "<group>"; };
-		D6175B932AED033F00B8E7B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D6175B952AED034200B8E7B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6175B982AED034200B8E7B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6567C942AFF7EF100CE2789 /* MotomenderTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotomenderTabView.swift; sourceTree = "<group>"; };
+		D6567C962AFF7F5600CE2789 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		D6567CA42AFF814300CE2789 /* MotorcycleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorcycleListView.swift; sourceTree = "<group>"; };
+		D6567CA62AFF832100CE2789 /* ActivityListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityListView.swift; sourceTree = "<group>"; };
+		D6567CA82AFF85C900CE2789 /* ActivityListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityListCell.swift; sourceTree = "<group>"; };
+		D6567CAD2AFF8E6100CE2789 /* MotorcycleListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorcycleListCell.swift; sourceTree = "<group>"; };
+		D6567CB12AFF91E600CE2789 /* ActivityDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetailsView.swift; sourceTree = "<group>"; };
+		D6567CB32B00065800CE2789 /* MotorcycleDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorcycleDetailsView.swift; sourceTree = "<group>"; };
+		D6567CB62B00072000CE2789 /* MotorcyleCreateFormSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorcyleCreateFormSheet.swift; sourceTree = "<group>"; };
+		D6567CB82B00125A00CE2789 /* ActivityCreateFormSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCreateFormSheet.swift; sourceTree = "<group>"; };
+		D6567CBA2B00E55E00CE2789 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		D6567CBC2B00E60000CE2789 /* Motorcycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motorcycle.swift; sourceTree = "<group>"; };
+		D6567CBE2B00E91D00CE2789 /* ActivityListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityListViewModel.swift; sourceTree = "<group>"; };
+		D6567CC02B01570D00CE2789 /* ActivityUpdateFormSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityUpdateFormSheet.swift; sourceTree = "<group>"; };
+		D6567CC22B015F8400CE2789 /* MotorcycleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorcycleListViewModel.swift; sourceTree = "<group>"; };
+		D6567CC42B01777800CE2789 /* MotorcycleUpdateFormSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorcycleUpdateFormSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +81,11 @@
 		D6175B902AED033F00B8E7B8 /* Motomender */ = {
 			isa = PBXGroup;
 			children = (
+				D6567CA12AFF80C600CE2789 /* Views */,
+				D6567CA02AFF80A100CE2789 /* Models */,
+				D6567C9C2AFF805C00CE2789 /* Utilities */,
+				D6567C982AFF7FEB00CE2789 /* Screens */,
 				D6175B912AED033F00B8E7B8 /* MotomenderApp.swift */,
-				D6175B932AED033F00B8E7B8 /* ContentView.swift */,
 				D6175B952AED034200B8E7B8 /* Assets.xcassets */,
 				D6175B972AED034200B8E7B8 /* Preview Content */,
 			);
@@ -65,6 +98,130 @@
 				D6175B982AED034200B8E7B8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6567C982AFF7FEB00CE2789 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				D6567C942AFF7EF100CE2789 /* MotomenderTabView.swift */,
+				D6567C9B2AFF801A00CE2789 /* MotorcycleListView */,
+				D6567C9A2AFF800700CE2789 /* ActivityListView */,
+				D6567CB02AFF918A00CE2789 /* ActivityDetailsView */,
+				D6567CAF2AFF917F00CE2789 /* MotorcycleDetailsView */,
+				D6567C992AFF7FF800CE2789 /* AccountView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		D6567C992AFF7FF800CE2789 /* AccountView */ = {
+			isa = PBXGroup;
+			children = (
+				D6567C962AFF7F5600CE2789 /* AccountView.swift */,
+			);
+			path = AccountView;
+			sourceTree = "<group>";
+		};
+		D6567C9A2AFF800700CE2789 /* ActivityListView */ = {
+			isa = PBXGroup;
+			children = (
+				D6567CA62AFF832100CE2789 /* ActivityListView.swift */,
+				D6567CBE2B00E91D00CE2789 /* ActivityListViewModel.swift */,
+			);
+			path = ActivityListView;
+			sourceTree = "<group>";
+		};
+		D6567C9B2AFF801A00CE2789 /* MotorcycleListView */ = {
+			isa = PBXGroup;
+			children = (
+				D6567CA42AFF814300CE2789 /* MotorcycleListView.swift */,
+				D6567CC22B015F8400CE2789 /* MotorcycleListViewModel.swift */,
+			);
+			path = MotorcycleListView;
+			sourceTree = "<group>";
+		};
+		D6567C9C2AFF805C00CE2789 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D6567C9F2AFF808F00CE2789 /* Managers */,
+				D6567C9E2AFF807200CE2789 /* Alerts */,
+				D6567C9D2AFF806B00CE2789 /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D6567C9D2AFF806B00CE2789 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D6567C9E2AFF807200CE2789 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		D6567C9F2AFF808F00CE2789 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		D6567CA02AFF80A100CE2789 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D6567CBA2B00E55E00CE2789 /* Activity.swift */,
+				D6567CBC2B00E60000CE2789 /* Motorcycle.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D6567CA12AFF80C600CE2789 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D6567CB52B00070B00CE2789 /* Sheets */,
+				D6567CAC2AFF8E4900CE2789 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D6567CAC2AFF8E4900CE2789 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D6567CA82AFF85C900CE2789 /* ActivityListCell.swift */,
+				D6567CAD2AFF8E6100CE2789 /* MotorcycleListCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D6567CAF2AFF917F00CE2789 /* MotorcycleDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				D6567CB32B00065800CE2789 /* MotorcycleDetailsView.swift */,
+			);
+			path = MotorcycleDetailsView;
+			sourceTree = "<group>";
+		};
+		D6567CB02AFF918A00CE2789 /* ActivityDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				D6567CB12AFF91E600CE2789 /* ActivityDetailsView.swift */,
+			);
+			path = ActivityDetailsView;
+			sourceTree = "<group>";
+		};
+		D6567CB52B00070B00CE2789 /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				D6567CB62B00072000CE2789 /* MotorcyleCreateFormSheet.swift */,
+				D6567CB82B00125A00CE2789 /* ActivityCreateFormSheet.swift */,
+				D6567CC02B01570D00CE2789 /* ActivityUpdateFormSheet.swift */,
+				D6567CC42B01777800CE2789 /* MotorcycleUpdateFormSheet.swift */,
+			);
+			path = Sheets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +294,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6175B942AED033F00B8E7B8 /* ContentView.swift in Sources */,
+				D6567CB42B00065800CE2789 /* MotorcycleDetailsView.swift in Sources */,
+				D6567CC32B015F8400CE2789 /* MotorcycleListViewModel.swift in Sources */,
+				D6567CBF2B00E91D00CE2789 /* ActivityListViewModel.swift in Sources */,
+				D6567C972AFF7F5600CE2789 /* AccountView.swift in Sources */,
+				D6567CC12B01570D00CE2789 /* ActivityUpdateFormSheet.swift in Sources */,
+				D6567CAE2AFF8E6100CE2789 /* MotorcycleListCell.swift in Sources */,
+				D6567CC52B01777900CE2789 /* MotorcycleUpdateFormSheet.swift in Sources */,
+				D6567CBD2B00E60000CE2789 /* Motorcycle.swift in Sources */,
+				D6567CB22AFF91E600CE2789 /* ActivityDetailsView.swift in Sources */,
+				D6567CA72AFF832100CE2789 /* ActivityListView.swift in Sources */,
+				D6567CB92B00125A00CE2789 /* ActivityCreateFormSheet.swift in Sources */,
+				D6567CBB2B00E55E00CE2789 /* Activity.swift in Sources */,
+				D6567CA92AFF85C900CE2789 /* ActivityListCell.swift in Sources */,
+				D6567CA52AFF814300CE2789 /* MotorcycleListView.swift in Sources */,
+				D6567C952AFF7EF100CE2789 /* MotomenderTabView.swift in Sources */,
+				D6567CB72B00072000CE2789 /* MotorcyleCreateFormSheet.swift in Sources */,
 				D6175B922AED033F00B8E7B8 /* MotomenderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

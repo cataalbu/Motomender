@@ -11,7 +11,7 @@ import SwiftUI
 struct MotomenderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MotomenderTabView()
         }
     }
 }
