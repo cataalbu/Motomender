@@ -15,7 +15,7 @@ struct ActivityListCell: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             HStack {
-                Text("#1")
+                Text("#" + String(activity.id))
                     .fontWeight(.bold)
                 Text(activity.name)
             }
